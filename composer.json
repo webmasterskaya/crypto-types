@@ -1,7 +1,7 @@
 {
-    "name": "sop/crypto-types",
+    "name": "webmasterskaya/crypto-types",
     "description": "A PHP library of various ASN.1 types for cryptographic applications.",
-    "homepage": "https://github.com/sop/crypto-types",
+    "homepage": "https://github.com/webmasterskaya/crypto-types",
     "license": "MIT",
     "type": "library",
     "keywords": [
@@ -37,7 +37,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sop\\CryptoTypes\\": "lib/CryptoTypes/"
+            "Webmasterskaya\\CryptoTypes\\": "lib/CryptoTypes/"
         }
     }
 }
