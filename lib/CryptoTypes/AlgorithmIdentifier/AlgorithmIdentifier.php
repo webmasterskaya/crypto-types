@@ -30,6 +30,10 @@ abstract class AlgorithmIdentifier implements AlgorithmIdentifierType
     const OID_SHA512_WITH_RSA_ENCRYPTION = '1.2.840.113549.1.1.13';
     const OID_SHA224_WITH_RSA_ENCRYPTION = '1.2.840.113549.1.1.14';
 
+    // GOSTR
+	const OID_CP_GOST_R3411_12_256_R3410 = '1.2.643.7.1.1.3.2';
+	const OID_CP_GOST_R3411_12_512_R3410 = '1.2.643.7.1.1.3.3';
+
     // Elliptic Curve signature algorithms
     const OID_ECDSA_WITH_SHA1 = '1.2.840.10045.4.1';
     const OID_ECDSA_WITH_SHA224 = '1.2.840.10045.4.3.1';

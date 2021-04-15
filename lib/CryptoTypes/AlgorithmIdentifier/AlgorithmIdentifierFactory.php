@@ -55,6 +55,8 @@ class AlgorithmIdentifierFactory
         AlgorithmIdentifier::OID_ECDSA_WITH_SHA256 => Signature\ECDSAWithSHA256AlgorithmIdentifier::class,
         AlgorithmIdentifier::OID_ECDSA_WITH_SHA384 => Signature\ECDSAWithSHA384AlgorithmIdentifier::class,
         AlgorithmIdentifier::OID_ECDSA_WITH_SHA512 => Signature\ECDSAWithSHA512AlgorithmIdentifier::class,
+        AlgorithmIdentifier::OID_CP_GOST_R3411_12_256_R3410 => Signature\GOSTR341112256R3410AlgorithmIdentifier::class,
+        AlgorithmIdentifier::OID_CP_GOST_R3411_12_512_R3410 => Signature\GOSTR341112512R3410AlgorithmIdentifier::class,
     ];
 
     /**
