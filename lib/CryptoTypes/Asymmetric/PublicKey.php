@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\Asymmetric;
+namespace Webmasterskaya\CryptoTypes\Asymmetric;
 
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\AlgorithmIdentifier\Feature\AlgorithmIdentifierType;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\AlgorithmIdentifierType;
 
 /**
  * Base class for public keys.

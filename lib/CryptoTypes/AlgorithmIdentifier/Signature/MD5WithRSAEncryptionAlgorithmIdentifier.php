@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\AlgorithmIdentifier\Signature;
+namespace Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature;
 
 /**
  * RSA with MD5 signature algorithm identifier.

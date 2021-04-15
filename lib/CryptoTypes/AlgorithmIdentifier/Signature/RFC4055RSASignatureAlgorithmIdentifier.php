@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\AlgorithmIdentifier\Signature;
+namespace Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature;
 
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Primitive\NullType;
 use Sop\ASN1\Type\UnspecifiedType;
-use Sop\CryptoTypes\AlgorithmIdentifier\SpecificAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\SpecificAlgorithmIdentifier;
 
 /*
 From RFC 4055 - 5.  PKCS #1 Version 1.5 Signature Algorithm

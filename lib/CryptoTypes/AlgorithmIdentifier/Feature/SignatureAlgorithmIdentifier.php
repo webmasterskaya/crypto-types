@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\AlgorithmIdentifier\Feature;
+namespace Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature;
 
-use Sop\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifier;
 
 /**
  * Algorithm identifier for signature algorithms.

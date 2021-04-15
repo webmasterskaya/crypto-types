@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\AlgorithmIdentifier\Hash;
+namespace Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Hash;
 
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\UnspecifiedType;
-use Sop\CryptoTypes\AlgorithmIdentifier\Feature\HashAlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\Feature\PRFAlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\SpecificAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\HashAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\PRFAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\SpecificAlgorithmIdentifier;
 
 /*
 Per RFC 2898 this algorithm identifier has no parameters:

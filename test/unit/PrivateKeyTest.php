@@ -4,10 +4,10 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\AlgorithmIdentifier\Asymmetric\ECPublicKeyAlgorithmIdentifier;
-use Sop\CryptoTypes\Asymmetric\EC\ECPrivateKey;
-use Sop\CryptoTypes\Asymmetric\PrivateKey;
-use Sop\CryptoTypes\Asymmetric\RSA\RSAPrivateKey;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Asymmetric\ECPublicKeyAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\Asymmetric\EC\ECPrivateKey;
+use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKey;
+use Webmasterskaya\CryptoTypes\Asymmetric\RSA\RSAPrivateKey;
 
 /**
  * @group asn1

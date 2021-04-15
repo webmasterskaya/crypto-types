@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\AlgorithmIdentifier\Cipher;
+namespace Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Cipher;
 
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\Integer;
 use Sop\ASN1\Type\Primitive\OctetString;
 use Sop\ASN1\Type\UnspecifiedType;
-use Sop\CryptoTypes\AlgorithmIdentifier\SpecificAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\SpecificAlgorithmIdentifier;
 
 /*
 Parameters may be seen in various forms. This implementation attemts

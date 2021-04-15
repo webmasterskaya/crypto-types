@@ -5,13 +5,13 @@ declare(strict_types = 1);
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\Integer;
-use Sop\CryptoTypes\AlgorithmIdentifier\GenericAlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\Signature\ECDSAWithSHA1AlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\Signature\SHA1WithRSAEncryptionAlgorithmIdentifier;
-use Sop\CryptoTypes\Signature\ECSignature;
-use Sop\CryptoTypes\Signature\GenericSignature;
-use Sop\CryptoTypes\Signature\RSASignature;
-use Sop\CryptoTypes\Signature\Signature;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\GenericAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\ECDSAWithSHA1AlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA1WithRSAEncryptionAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\Signature\ECSignature;
+use Webmasterskaya\CryptoTypes\Signature\GenericSignature;
+use Webmasterskaya\CryptoTypes\Signature\RSASignature;
+use Webmasterskaya\CryptoTypes\Signature\Signature;
 
 /**
  * @group signature

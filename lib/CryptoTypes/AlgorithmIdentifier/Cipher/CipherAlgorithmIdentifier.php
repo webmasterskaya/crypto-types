@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\AlgorithmIdentifier\Cipher;
+namespace Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Cipher;
 
-use Sop\CryptoTypes\AlgorithmIdentifier\SpecificAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\SpecificAlgorithmIdentifier;
 
 /**
  * Base class for cipher algorithm identifiers.

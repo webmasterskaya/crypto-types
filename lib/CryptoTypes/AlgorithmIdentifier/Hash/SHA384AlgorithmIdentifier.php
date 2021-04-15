@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\AlgorithmIdentifier\Hash;
+namespace Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Hash;
 
 /**
  * SHA-384 algorithm identifier.

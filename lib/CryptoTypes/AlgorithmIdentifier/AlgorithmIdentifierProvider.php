@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\AlgorithmIdentifier;
+namespace Webmasterskaya\CryptoTypes\AlgorithmIdentifier;
 
 /**
  * Interface to provide lookup from OID to class name of specific algorithm

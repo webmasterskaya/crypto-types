@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\AlgorithmIdentifier\Signature;
+namespace Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature;
 
-use Sop\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifierFactory;
-use Sop\CryptoTypes\AlgorithmIdentifier\Feature\AsymmetricCryptoAlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\Feature\HashAlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\Feature\SignatureAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifierFactory;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\AsymmetricCryptoAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\HashAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\SignatureAlgorithmIdentifier;
 
 /**
  * Factory class for constructing signature algorithm identifiers.

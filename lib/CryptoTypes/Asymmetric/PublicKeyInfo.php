@@ -2,15 +2,15 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\Asymmetric;
+namespace Webmasterskaya\CryptoTypes\Asymmetric;
 
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\BitString;
 use Sop\ASN1\Type\UnspecifiedType;
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\Asymmetric\ECPublicKeyAlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\Feature\AlgorithmIdentifierType;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Asymmetric\ECPublicKeyAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\AlgorithmIdentifierType;
 
 /**
  * Implements X.509 SubjectPublicKeyInfo ASN.1 type.

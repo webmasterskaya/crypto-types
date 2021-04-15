@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\AlgorithmIdentifier\Cipher;
+namespace Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Cipher;
 
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Primitive\OctetString;
 use Sop\ASN1\Type\UnspecifiedType;
-use Sop\CryptoTypes\AlgorithmIdentifier\SpecificAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\SpecificAlgorithmIdentifier;
 
 /*
 RFC 2898 defines parameters as follows:

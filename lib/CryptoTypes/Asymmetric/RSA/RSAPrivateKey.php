@@ -2,16 +2,16 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\Asymmetric\RSA;
+namespace Webmasterskaya\CryptoTypes\Asymmetric\RSA;
 
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\Integer;
 use Sop\ASN1\Type\UnspecifiedType;
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\AlgorithmIdentifier\Asymmetric\RSAEncryptionAlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\Feature\AlgorithmIdentifierType;
-use Sop\CryptoTypes\Asymmetric\PrivateKey;
-use Sop\CryptoTypes\Asymmetric\PublicKey;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Asymmetric\RSAEncryptionAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\AlgorithmIdentifierType;
+use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKey;
+use Webmasterskaya\CryptoTypes\Asymmetric\PublicKey;
 
 /**
  * Implements PKCS #1 RSAPrivateKey ASN.1 type.

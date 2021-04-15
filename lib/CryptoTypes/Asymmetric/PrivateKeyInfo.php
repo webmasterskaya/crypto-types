@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\Asymmetric;
+namespace Webmasterskaya\CryptoTypes\Asymmetric;
 
 /**
  * PrivateKeyInfo was first introduced in RFC 5208, but later

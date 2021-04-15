@@ -6,9 +6,9 @@ use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\Integer;
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\Asymmetric\PrivateKeyInfo;
-use Sop\CryptoTypes\Asymmetric\RSA\RSAPrivateKey;
-use Sop\CryptoTypes\Asymmetric\RSA\RSAPublicKey;
+use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
+use Webmasterskaya\CryptoTypes\Asymmetric\RSA\RSAPrivateKey;
+use Webmasterskaya\CryptoTypes\Asymmetric\RSA\RSAPublicKey;
 
 /**
  * @group asn1

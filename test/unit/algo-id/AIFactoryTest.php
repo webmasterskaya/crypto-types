@@ -7,9 +7,9 @@ use Sop\ASN1\Element;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\ObjectIdentifier;
 use Sop\ASN1\Type\UnspecifiedType;
-use Sop\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifierFactory;
-use Sop\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifierProvider;
-use Sop\CryptoTypes\AlgorithmIdentifier\SpecificAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifierFactory;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifierProvider;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\SpecificAlgorithmIdentifier;
 
 /**
  * @group asn1

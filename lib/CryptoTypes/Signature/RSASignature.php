@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\Signature;
+namespace Webmasterskaya\CryptoTypes\Signature;
 
 use Sop\ASN1\Type\Primitive\BitString;
 

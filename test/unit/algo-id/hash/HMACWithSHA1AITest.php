@@ -5,8 +5,8 @@ declare(strict_types = 1);
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\NullType;
-use Sop\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\Hash\HMACWithSHA1AlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Hash\HMACWithSHA1AlgorithmIdentifier;
 
 /**
  * @group asn1

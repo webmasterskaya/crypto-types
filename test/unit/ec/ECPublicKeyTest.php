@@ -4,9 +4,9 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\AlgorithmIdentifier\Asymmetric\ECPublicKeyAlgorithmIdentifier;
-use Sop\CryptoTypes\Asymmetric\EC\ECPublicKey;
-use Sop\CryptoTypes\Asymmetric\PublicKeyInfo;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Asymmetric\ECPublicKeyAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\Asymmetric\EC\ECPublicKey;
+use Webmasterskaya\CryptoTypes\Asymmetric\PublicKeyInfo;
 
 /**
  * @group asn1

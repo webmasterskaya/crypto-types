@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\Asymmetric\EC;
+namespace Webmasterskaya\CryptoTypes\Asymmetric\EC;
 
 use Sop\ASN1\Type\Primitive\BitString;
 use Sop\ASN1\Type\Primitive\Integer;

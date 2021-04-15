@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\AlgorithmIdentifier\Feature;
+namespace Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature;
 
 /**
  * Algorithm identifier for encryption algorithms.

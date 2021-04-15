@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\Asymmetric\RSA\RSAPublicKey;
+use Webmasterskaya\CryptoTypes\Asymmetric\RSA\RSAPublicKey;
 
 /**
  * @group asn1

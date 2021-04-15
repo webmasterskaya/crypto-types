@@ -6,10 +6,10 @@ use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\Integer;
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\AlgorithmIdentifier\Asymmetric\ECPublicKeyAlgorithmIdentifier;
-use Sop\CryptoTypes\Asymmetric\EC\ECPrivateKey;
-use Sop\CryptoTypes\Asymmetric\EC\ECPublicKey;
-use Sop\CryptoTypes\Asymmetric\PrivateKeyInfo;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Asymmetric\ECPublicKeyAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\Asymmetric\EC\ECPrivateKey;
+use Webmasterskaya\CryptoTypes\Asymmetric\EC\ECPublicKey;
+use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
 
 /**
  * @group asn1

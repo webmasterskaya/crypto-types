@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\Signature;
+namespace Webmasterskaya\CryptoTypes\Signature;
 
 use Sop\ASN1\Type\Primitive\BitString;
-use Sop\CryptoTypes\AlgorithmIdentifier\Feature\AlgorithmIdentifierType;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\AlgorithmIdentifierType;
 
 /**
  * Generic signature value container.

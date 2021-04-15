@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\AlgorithmIdentifier\Signature;
+namespace Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature;
 
 /**
  * RSA with GOSTR3411_2012_256 signature algorithm identifier.

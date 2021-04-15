@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\AlgorithmIdentifier;
+namespace Webmasterskaya\CryptoTypes\AlgorithmIdentifier;
 
 use Sop\ASN1\Type\Constructed\Sequence;
 

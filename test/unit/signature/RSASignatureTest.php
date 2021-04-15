@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Primitive\BitString;
-use Sop\CryptoTypes\Signature\RSASignature;
+use Webmasterskaya\CryptoTypes\Signature\RSASignature;
 
 /**
  * @group signature

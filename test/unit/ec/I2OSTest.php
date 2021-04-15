@@ -5,7 +5,7 @@ declare(strict_types = 1);
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Primitive\Integer;
 use Sop\ASN1\Type\Primitive\OctetString;
-use Sop\CryptoTypes\Asymmetric\EC\ECConversion;
+use Webmasterskaya\CryptoTypes\Asymmetric\EC\ECConversion;
 
 /**
  * @group conversion

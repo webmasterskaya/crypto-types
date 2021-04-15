@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\CryptoTypes\Asymmetric\EC;
+namespace Webmasterskaya\CryptoTypes\Asymmetric\EC;
 
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\BitString;
@@ -12,10 +12,10 @@ use Sop\ASN1\Type\Primitive\OctetString;
 use Sop\ASN1\Type\Tagged\ExplicitlyTaggedType;
 use Sop\ASN1\Type\UnspecifiedType;
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\AlgorithmIdentifier\Asymmetric\ECPublicKeyAlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\Feature\AlgorithmIdentifierType;
-use Sop\CryptoTypes\Asymmetric\PrivateKey;
-use Sop\CryptoTypes\Asymmetric\PublicKey;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Asymmetric\ECPublicKeyAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\AlgorithmIdentifierType;
+use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKey;
+use Webmasterskaya\CryptoTypes\Asymmetric\PublicKey;
 
 /**
  * Implements elliptic curve private key type as specified by RFC 5915.
